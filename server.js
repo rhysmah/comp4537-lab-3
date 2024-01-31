@@ -12,10 +12,10 @@ const greeting = require('./lang/en/en')
 hostname and port; but these details will be handled by
 our hosting service. */
 const hostname = '127.0.0.1'
-const port = process.env.PORT || 443
+const port = process.env.PORT || 3000
 
 const server = http.createServer((req, res) => {
-  const queryObject = url.URL(req.url, true).query
+  const queryObject = url.parse(req.url, true).query
 
   if (queryObject.name) {
     const date = utils.getDate()

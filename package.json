@@ -1,0 +1,11 @@
+{
+  "name": "comp4537-lab-3",
+  "version": "1.0.0",
+  "description": "Node.js project for COMP4537 Lab 3",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
