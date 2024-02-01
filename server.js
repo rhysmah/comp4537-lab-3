@@ -1,3 +1,5 @@
+// ChatGPT helped me write this code
+
 /* http is used for easier local machine testing; however,
 our hosting service, which uses https, will automatically
 encrypt and decrypt requests handled by our application. */
@@ -16,6 +18,7 @@ const greeting = require('./lang/en/en')
 hostname and port; but these details will be handled by
 our hosting service. When hosted on a service, the service
 provides the hostname. */
+
 const port = process.env.PORT || 3000
 
 /* Creates an http servier. We pass in a function handler,
